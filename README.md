@@ -1,4 +1,4 @@
-# yeppie_tech
+# yippie_tech
 A simple xml parser for high loads 
 
 Assignment
