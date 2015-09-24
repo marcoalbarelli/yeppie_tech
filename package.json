@@ -1,0 +1,24 @@
+{
+  "name": "yeppie_tech",
+  "version": "1.0.0",
+  "description": "A test project",
+  "main": "app.js",
+  "dependencies": {
+    "request": "^2.63.0",
+    "xml-flow-cdata": "^0.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcoalbarelli/yeppie_tech.git"
+  },
+  "author": "Marco Albarelli <info@adhocmobile.it>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcoalbarelli/yeppie_tech/issues"
+  },
+  "homepage": "https://github.com/marcoalbarelli/yeppie_tech#readme"
+}
