@@ -1,0 +1,5 @@
+{
+  "mongoDBHost": "localhost",
+  "mongoDBDatabase": "yieppie",
+  "mongoDBPort": "27017"
+}

@@ -1,0 +1,6 @@
+{
+  "mongoDBHost": "localhost",
+  "mongoDBDatabase": "yieppie_test",
+  "mongoDBPort": "27017",
+  "mongoDBCollection": "EAN"
+}
