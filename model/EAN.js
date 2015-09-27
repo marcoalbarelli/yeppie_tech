@@ -8,7 +8,8 @@ mongoose.connect(utils.getMongoConnectionString(config));
 
 
 var product = mongoose.Schema({
-    myean: String,
+    ean: String,
+    _ean: String,
     URL: String,
     title: String,
     description: String,
@@ -16,7 +17,7 @@ var product = mongoose.Schema({
     shipping_price: Number
 });
 
-product.index({myean:1});
+product.index({_ean:1},{unique:true});
 
 product.methods.mustBeReplacedBy =function(otherean){
     return this.price > otherean.price;
